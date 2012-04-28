@@ -1,0 +1,23 @@
+body{
+  background:#000;
+}
+#wrapper{
+  width:100%;
+}
+#header{
+  height:190px;
+/*  background:#ccc;*/
+}
+#bg-head{
+  background:#7a0924;
+  height:9px;
+}
+#bg-head-arrow{
+/*  border:1px solid #ccc;*/
+  background:url('../images/head-bg-arrow.png') no-repeat;
+  position:relative;
+  top:9px;
+  left:10%;
+  height:9px;
+  width:18px;
+}
