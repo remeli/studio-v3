@@ -12,7 +12,7 @@ body{
 }
 #wrapper{
   width:100%;
-  min-width:1024px;
+  min-width:1000px;
 }
 #wrapper a{
   color:#fff;
@@ -133,6 +133,7 @@ body{
 .main-thing-desc{
   font-size:18px;
   color:#6b6b6b;
+  letter-spacing:-0.5px;
   line-height:1.2em;
   width:70%;
   margin-bottom:10px;
@@ -181,4 +182,35 @@ body{
 }
 .clear{
   clear:both;
+}
+/*additional content*/
+#additional-content{
+  clear:both;
+  margin-top:70px;
+}
+#new-projects{
+  float:left;
+  width:323px;
+/*  border:1px solid #ccc;*/
+  height:319px;
+  margin-left:6%;
+}
+.title-new-projects{
+  font-size:30px;
+  text-align:center;
+}
+#link-all-projects{
+  font-size:10px;
+  padding-left:53px;
+  margin-top:10px;
+  font-family:Verdana, Arial, sans-serif;
+  font-weight:bold;
+}
+#link-all-projects a{
+  color:#e29d9e;
+}
+#content-new-projects{
+  background:url('../images/vectot-background.png') no-repeat 50px 30px;
+  width:302px;
+  height:254px;
 }
