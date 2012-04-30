@@ -8,15 +8,19 @@
 body{
   background:#000;
   color:#fff;
-  font-family:Play, Helvetica sans-serif;
-}
-a{
-  color:#fff;
-  text-decoration:underline;
+  font-family:Play, Helvetica, Arial, sans-serif;
 }
 #wrapper{
   width:100%;
   min-width:1024px;
+}
+#wrapper a{
+  color:#fff;
+  text-decoration:underline;
+}
+#wrapper a:hover{
+  color:#901027;
+  cursor:pointer;
 }
 #header{
   height:190px;
@@ -43,15 +47,16 @@ a{
   margin-left:8.8%;
 }
 #ruby-bg{
-  width:310px;
-  height:317px;
+  width:25%;
+  height:155%;
   background:url('../images/ruby-bg.png') no-repeat;
+  background-size:90%;
   float:right;
   margin-top:32px;
   margin-right:35px;
   position:relative;
   z-index:-1;
-/*    border:1px solid #ccc;*/
+/*  border:1px solid #ccc;*/
 }
 #head-contacts{
 /*  border:1px solid #ccc;*/
@@ -62,14 +67,23 @@ a{
 }
 #head-contacts .phone-head-contact{
 }
+.phone-head-contact .main-phone{
+  font-size:15px;
+  color:#ccc;
+  margin-right:1%;
+}
 .phone-head-contact .main-phone-area{
   font-weight:bold;
 }
 .feedback-link{
-  margin-left:14%;
+  margin-left:22%;
+  font-size:13px;
 }
 .feedback-link a{
-  color:#b7b7b7;
+  color:#ccc !important;
+}
+.feedback-link a:hover{
+  color:#901027 !important;
 }
 #content{
 /*  border:1px solid #ccc;*/
@@ -91,7 +105,32 @@ a{
   border-bottom:1px solid #383838;
 }
 #main-menu ul li a:hover{
-  color:#890a21;
+  color:#901027;
+}
+#main-thing{
+  float:left;
+  margin-left:20px;
+/*  border:1px solid #ccc;*/
+  width:36%;
+  height:150px;
+}
+#main-thing .one-title{
+  font-size:48px;
+  text-transform:uppercase;
+  letter-spacing:3px;
+}
+#main-thing .two-title{
+  font-size:48px;
+  text-transform:uppercase;
+  color:#9d9d9d;
+  margin-top:5px;
+  letter-spacing:3px;
+}
+.main-thing-desc{
+  font-size:18px;
+  color:#6b6b6b;
+  line-height:1.2em;
+  margin-top:20px;
 }
 .clear{
   clear:both;
