@@ -48,13 +48,13 @@ body{
 }
 #ruby-bg{
   width:25%;
-  height:155%;
+  height:50%;
   background:url('../images/ruby-bg.png') no-repeat;
   background-size:90%;
   float:right;
-  margin-top:32px;
-  margin-right:35px;
-  position:relative;
+  right:50px;
+  top:40px;
+  position:absolute;
   z-index:-1;
 /*  border:1px solid #ccc;*/
 }
@@ -107,19 +107,23 @@ body{
 #main-menu ul li a:hover{
   color:#901027;
 }
-#main-thing{
+#main-content{
   float:left;
-  margin-left:20px;
 /*  border:1px solid #ccc;*/
-  width:36%;
-  height:150px;
+  margin-left:20px;
+  width:50%;
+  margin-top:-20px;
 }
-#main-thing .one-title{
+#main-thing{
+/*  border:1px solid #ccc;*/
+  height:115px;
+}
+.one-title{
   font-size:48px;
   text-transform:uppercase;
   letter-spacing:3px;
 }
-#main-thing .two-title{
+.two-title{
   font-size:48px;
   text-transform:uppercase;
   color:#9d9d9d;
@@ -130,7 +134,50 @@ body{
   font-size:18px;
   color:#6b6b6b;
   line-height:1.2em;
-  margin-top:20px;
+  width:70%;
+  margin-bottom:10px;
+}
+/*teasers*/
+#teasers{
+  width:110%;
+/*  border:1px solid #ccc;*/
+  margin-top:60px;
+  height:126px;
+}
+#teasers #ror-block{
+  float:left;
+  width:46%;
+  height:112px;
+  background:url('../images/ror-block-icon.png') no-repeat;
+}
+#teasers #agile-block{
+  float:left;
+  width:46%;
+  margin-left:30px;
+  height:112px;
+  background:url('../images/agile-block-icon.png') no-repeat;
+/*  border:1px solid #ccc;*/
+}
+.main-teaser-desc{
+  position:relative;
+  top:30px;
+  left:80px;
+}
+.title-teaser{
+  margin-bottom:18px;
+  font-weight:bold;
+}
+.teaser-desc{
+  font-family:Verdana, Arial, sans-serif;
+  font-size:12px;
+  color:#b57e7f;
+  width:75%;
+  line-height:1.2em;
+}
+.for-agile-desc{
+  position:relative;
+  top:30px;
+  left:95px;
 }
 .clear{
   clear:both;
