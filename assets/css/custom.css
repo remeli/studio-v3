@@ -1,8 +1,22 @@
+/* ================== */
+/* = Remeli.kz 2012 = */
+/* ================== */
+@font-face{
+  font-family:Play;
+  src: url(../fonts/Play-Regular.ttf) format("truetype");
+}
 body{
   background:#000;
+  color:#fff;
+  font-family:Play, Helvetica sans-serif;
+}
+a{
+  color:#fff;
+  text-decoration:underline;
 }
 #wrapper{
   width:100%;
+  min-width:1024px;
 }
 #header{
   height:190px;
@@ -20,4 +34,65 @@ body{
   left:10%;
   height:9px;
   width:18px;
+}
+#logo{
+  width:166px;
+  height:63px;
+  float:left;
+  margin-top:28px;
+  margin-left:8.8%;
+}
+#ruby-bg{
+  width:310px;
+  height:317px;
+  background:url('../images/ruby-bg.png') no-repeat;
+  float:right;
+  margin-top:32px;
+  margin-right:35px;
+  position:relative;
+  z-index:-1;
+/*    border:1px solid #ccc;*/
+}
+#head-contacts{
+/*  border:1px solid #ccc;*/
+  width:320px;
+  float:left;
+  margin-left:10%;
+  margin-top:55px;
+}
+#head-contacts .phone-head-contact{
+}
+.phone-head-contact .main-phone-area{
+  font-weight:bold;
+}
+.feedback-link{
+  margin-left:14%;
+}
+.feedback-link a{
+  color:#b7b7b7;
+}
+#content{
+/*  border:1px solid #ccc;*/
+  margin-top:20px;
+}
+#main-menu{
+  float:left;
+  width:240px;
+/*  border:1px solid #ccc;*/
+  margin-left:9%;
+}
+#main-menu ul li{
+  margin-bottom:16px;
+}
+#main-menu ul li a{
+  margin-bottom:16px;
+  color:#eee;
+  text-decoration:none;
+  border-bottom:1px solid #383838;
+}
+#main-menu ul li a:hover{
+  color:#890a21;
+}
+.clear{
+  clear:both;
 }
