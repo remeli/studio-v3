@@ -196,13 +196,15 @@ body{
   margin-left:6%;
 }
 .title-new-projects{
-  font-size:30px;
+  letter-spacing:1px;
+  font-size:27px;
   text-align:center;
+  text-transform:uppercase;
 }
 #link-all-projects{
   font-size:10px;
-  padding-left:53px;
-  margin-top:10px;
+  padding-left:46px;
+  margin-top:15px;
   font-family:Verdana, Arial, sans-serif;
   font-weight:bold;
 }
@@ -213,4 +215,97 @@ body{
   background:url('../images/vectot-background.png') no-repeat 50px 30px;
   width:302px;
   height:254px;
+}
+/*etvans*/
+#flag{
+  float:left;
+  height:292px;
+  width:479px;
+/*  border:1px solid #ccc;*/
+  margin-left:11%;
+  background:url('../images/flagman-bg.png') no-repeat;
+}
+.our-products-title{
+  font-size:25px;
+  color:#363636;
+  text-transform:uppercase;
+/*  border:1px solid #ccc;*/
+  display:inline-block;
+  margin-left:45px;
+  position:relative;
+  top:-25px;
+  letter-spacing:1px;
+}
+#product-info{
+/*  border:1px solid #ccc;*/
+  margin-left:45px;
+  margin-bottom:23px;
+  margin-top:-6px;
+}
+#product-info .product-title{
+  font-size:48px;
+  margin-right:5px;
+  letter-spacing:1px;
+}
+#product-info .product-addition-title{
+  margin-left:20px;
+  color:#9d9d9d;
+  font-size:18px;
+  width:170px;
+/*  border:1px solid #ccc;*/
+  display:inline-block;
+}
+.logo-product{
+/*  border:1px solid #ccc;*/
+  margin-left:35px;
+  width:192px;
+  height:123px;
+  float:left;
+  display:inline-block;
+}
+.product-description{
+  float:left;  
+  width:239px;
+  height:95px;
+  display:inline-block;
+/*  border:1px solid #ccc;*/
+  margin-left:10px;
+  margin-top:15px;
+  font-size:12px;
+  line-height:1.2em;
+  color:#b3b3b3;
+  font-family:Verdana,Arial,sans-serif
+}
+#footer-product-info{
+  clear:both;
+/*  border:1px solid #ccc;*/
+  margin-left:45px;
+  margin-top:20px; 
+  font-family:Verdana,Helvetica,sans-serif;
+  font-size:14px;
+}
+.price-product{
+  margin-left:20px;
+}
+.product-price-label{
+  color:#be1522;
+}
+.more-product-link{
+  margin-left:90px;
+}
+.more-product-link a{
+  color:#b3b3b3 !important;
+  text-decoration:none !important;
+  padding-bottom:2px;
+  border-bottom:1px solid #b3b3b3;
+}
+.more-product-link a:hover{
+  color:#fff !important;
+}
+.more-product-title{
+  color:#be1522;
+}
+/* footer */
+#footer{
+  clear:both;
 }
