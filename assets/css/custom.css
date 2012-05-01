@@ -490,3 +490,14 @@ body{
   margin-bottom:20px;
   line-height:1.3em;
 }
+/*projects*/
+.our-porject{
+  font-weight:bold;
+}
+.projects-page a{
+  text-decoration:none !important;
+  color:#ccc !important;
+}
+.projects-page a:hover{
+  color:#fff !important;
+}
