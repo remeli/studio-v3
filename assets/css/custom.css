@@ -432,3 +432,46 @@ body{
   float:left;
   margin-left:17%; 
 }
+
+/* ========= */
+/* = pages = */
+/* ========= */
+
+/*team*/
+.pages-content{
+  margin-top:10px;
+  font-family:Verdana,Arial,sans-serif;
+  line-height:1.3em;
+  font-size:13px;
+  color:#ddd;
+}
+#photos-team{
+  margin-top:40px;
+/*  border:1px solid #ccc; */
+}
+#photos-team .team-member{
+  display:inline-block;
+  width:170px;
+  height:130px;
+}
+#photos-team img{
+  width:130px;
+  height:135px;
+  margin:0 auto;
+  display:block;
+}
+#photos-team img:hover{
+  opacity:0.8;
+}
+.team-member-name{
+  height:10px;
+  font-size:11px;
+  margin-top:10px;
+  text-align:center;
+}
+.team-member-pr{
+  font-size:11px;
+  margin-top:10px;
+  text-align:center;
+  font-style:italic;
+}
