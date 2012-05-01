@@ -308,4 +308,26 @@ body{
 /* footer */
 #footer{
   clear:both;
+  border:1px solid #ccc;
+  height:135px;
+  margin-top:65px;
+}
+#footeraddress{
+  height:90px;
+/*  border:1px solid #fff;*/
+  width:260px;
+  float:left;
+  margin-left:7%;
+}
+#socialnetwork{
+/*  border:1px solid #ccc;*/
+  padding-left:7%;
+  margin-bottom:20px;  
+}
+#socialnetwork a{
+  text-decoration:none;
+  margin-right:10px;
+}
+#socialnetwork a img:hover{
+  opacity:0.9;
 }
