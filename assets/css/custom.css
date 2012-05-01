@@ -216,6 +216,71 @@ body{
   width:302px;
   height:254px;
 }
+#content-new-projects .one-project{
+  display:inline-block;
+  position:relative;
+  top:72px;
+  left:25px;
+  height:100px;
+  width:100px;
+  -webkit-border-radius:50px;  
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  -o-border-radius:50px;
+  background:#878787;
+}
+#content-new-projects .one-project:hover{
+  background:#be1522;
+}
+#content-new-projects .one-project img{
+  width:70px;
+  position:relative;
+  left:15px;
+  top:10px;
+  height:80px;
+}
+#content-new-projects .two-project{
+/*  border:1px solid #ccc;*/
+  display:inline-block;
+  height:100px;
+  width:100px;
+  position:relative;
+  top:92px;
+  left:95px;
+}
+#content-new-projects .two-project:hover{
+  opacity:0.9;
+}
+#content-new-projects .two-project img{
+  height:100px;
+  width:100px;
+  -webkit-border-radius:50px;  
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  -o-border-radius:50px;
+  background:#333;
+}
+#content-new-projects .three-project{
+  display:inline-block;
+  position:relative;
+  top:62px;
+  left:105px;
+  height:100px;
+  width:100px;
+  -webkit-border-radius:50px;  
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  -o-border-radius:50px;
+  background:#2A2A2A;
+}
+#content-new-projects .three-project:hover{
+  background:#be1522;
+}
+#content-new-projects .three-project img{
+  position:relative;
+  left:13px;
+  top:25px;
+}
 /*etvans*/
 #flag{
   float:left;
@@ -310,7 +375,7 @@ body{
   clear:both;
 /*  border:1px solid #ccc;*/
   height:135px;
-  margin-top:85px;
+  margin-top:105px;
   font-family:Verdana,Arial,sans-serif;
   font-size:11px;
   line-height:1.4em;
