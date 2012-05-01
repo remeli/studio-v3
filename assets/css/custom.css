@@ -308,16 +308,21 @@ body{
 /* footer */
 #footer{
   clear:both;
-  border:1px solid #ccc;
+/*  border:1px solid #ccc;*/
   height:135px;
-  margin-top:65px;
+  margin-top:85px;
+  font-family:Verdana,Arial,sans-serif;
+  font-size:11px;
+  line-height:1.4em;
 }
-#footeraddress{
-  height:90px;
-/*  border:1px solid #fff;*/
-  width:260px;
-  float:left;
-  margin-left:7%;
+.footer-label{
+  color:#776d6d;
+}
+.footer-link{
+  color:#916566 !important;
+}
+.footer-link:hover{
+  color:#901027 !important;
 }
 #socialnetwork{
 /*  border:1px solid #ccc;*/
@@ -330,4 +335,35 @@ body{
 }
 #socialnetwork a img:hover{
   opacity:0.9;
+}
+#footeraddress{
+  height:90px;
+/*  border:1px solid #fff;*/
+  width:260px;
+  float:left;
+  margin-left:7%;
+}
+#location-map-link{
+  margin-top:15px;
+}
+#footerphone{
+  height:90px;
+/*  border:1px solid #fff;*/
+  width:184px;
+  float:left;
+  margin-left:3%; 
+}
+#footeremail{
+  height:90px;
+/*  border:1px solid #fff;*/
+  width:134px;
+  float:left;
+  margin-left:3%; 
+}
+#footerdesign{
+  height:90px;
+/*  border:1px solid #fff;*/
+  width:90px;
+  float:left;
+  margin-left:17%; 
 }
