@@ -1,7 +1,7 @@
 /* ================== */
 /* = Remeli.kz 2012 = */
 /* ================== */
-@font-face{font-family:Play;src:url(../fonts/Play-Regular.ttf) format("truetype");}
+@font-face{font-family:'Play';font-style:normal;font-weight:normal;src:local('Play'),url(../fonts/Play-Regular.ttf) format("woff");}
 body{background:#000;color:#fff;font-family:Play,Helvetica,Arial,sans-serif;}
 #wrapper{width:100%;min-width:1000px;}
 #wrapper a{color:#fff;text-decoration:underline;}
