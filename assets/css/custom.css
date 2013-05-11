@@ -17,7 +17,7 @@ background:url('../images/ruby-bg.png') no-repeat;background-size:90%;}
 #head-contacts .phone-head-contact{}
 .phone-head-contact .main-phone{margin-right:1%;color:#ccc;font-size:15px;}
 .phone-head-contact .main-phone-area{font-weight:bold;}
-.feedback-link{margin-left:22%;font-size:13px;}
+.feedback-link{margin-left:12%;font-size:13px;}
 .feedback-link a{color:#ccc !important;}
 .feedback-link a:hover{color:#901027 !important;}
 #content{margin-top:20px;/* border:1px solid #ccc;*/}
